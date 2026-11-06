@@ -9,6 +9,7 @@ local L = {
     BUILD_DONE = "Build complete (%s).",
     TREE_UNREADABLE = "Talent tree not readable yet.",
     BUILD_PRIEST_SHADOW = "Shadow (leveling)",
+    BUILD_MAGE_FROST = "Frost (leveling)",
 }
 
 local locales = {
@@ -20,6 +21,7 @@ local locales = {
         BUILD_DONE = "Build komplett (%s).",
         TREE_UNREADABLE = "Talentbaum noch nicht lesbar.",
         BUILD_PRIEST_SHADOW = "Schatten (Leveling)",
+        BUILD_MAGE_FROST = "Frost (Leveling)",
     },
 }
 
