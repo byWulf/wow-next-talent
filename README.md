@@ -15,7 +15,7 @@ The highlight follows clicks right away, even before you apply the changes. Once
 
 | Class | Build | Source |
 |---|---|---|
-| Mage | Frost (leveling), levels 10-60 | Icy Veins, WoW Forever Frost Mage Leveling guide (as of 2026-11-04) |
+| Mage | Frost (leveling), levels 10-60 | Icy Veins, WoW Forever Frost Mage Leveling guide (as of 2026-11-09) |
 | Priest | Shadow (leveling), levels 10-60 | Icy Veins, WoW Forever Shadow Priest Leveling guide (as of 2026-11-02) |
 
 The builds are defined in `Builds.lua` as one spell ID per talent point, in spending order. To add another class, add an entry for its class token (e.g. `WARLOCK`) there.

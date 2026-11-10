@@ -6,56 +6,56 @@ local _, ns = ...
 ns.builds = {
     MAGE = {
         name = ns.L.BUILD_MAGE_FROST,
-        source = "Icy Veins, WoW Forever Frost Mage Leveling, as of 2026-11-04",
+        source = "Icy Veins, WoW Forever Frost Mage Leveling, as of 2026-11-09",
         firstLevel = 10,
         talents = {
             [29438] = "Precision",
-            [6057] = "Wand Specialization",
-            [11237] = "Improved Channeling",
-            [400588] = "Missile Barrage",
             [11070] = "Improved Frostbolt",
             [11071] = "Frostbite",
             [1312002] = "Ice Lance",
             [11207] = "Ice Shards",
             [11170] = "Shatter",
-            [11185] = "Improved Blizzard",
-            [400647] = "Fingers of Frost",
-            [16757] = "Arctic Reach",
-            [11160] = "Frost Channeling",
             [11958] = "Ice Block",
-            [11175] = "Permafrost",
+            [400647] = "Fingers of Frost",
+            [11160] = "Frost Channeling",
+            [11185] = "Improved Blizzard",
+            [16757] = "Arctic Reach",
             [12472] = "Cold Snap",
             [11426] = "Ice Barrier",
-            [11210] = "Arcane Subtlety",
+            [11175] = "Permafrost",
             [11190] = "Improved Cone of Cold",
             [11180] = "Winter's Chill",
             [11165] = "Improved Frost Nova",
+            [6057] = "Wand Specialization",
+            [28574] = "Arcane Resilience",
+            [11210] = "Arcane Subtlety",
+            [11213] = "Arcane Concentration",
         },
         order = {
             29438, 29438,                                   -- 10-11 Precision 2/3
-            6057, 6057,                                     -- 12-13 Wand Specialization 2/2
-            11237, 11237, 11237,                            -- 14-16 Improved Channeling 3/5
-            400588, 400588,                                 -- 17-18 Missile Barrage 2/2
-            11070, 11070, 11070,                            -- 19-21 Improved Frostbolt 3/5
-            11071, 11071, 11071,                            -- 22-24 Frostbite 3/3
-            11070, 11070,                                   -- 25-26 Improved Frostbolt 5/5
-            1312002,                                        -- 27    Ice Lance
-            11207, 11207, 11207, 11207,                     -- 28-31 Ice Shards 4/5
-            11170, 11170, 11170,                            -- 32-34 Shatter 3/3
-            11207,                                          -- 35    Ice Shards 5/5
-            11185,                                          -- 36    Improved Blizzard 1/3
-            400647, 400647,                                 -- 37-38 Fingers of Frost 2/2
-            16757, 16757,                                   -- 39-40 Arctic Reach 2/2
-            11160, 11160, 11160,                            -- 41-43 Frost Channeling 3/3
-            11958,                                          -- 44    Ice Block
-            11175,                                          -- 45    Permafrost 1/3
-            12472,                                          -- 46    Cold Snap
-            11426,                                          -- 47    Ice Barrier
-            11210, 11210,                                   -- 48-49 Arcane Subtlety 2/2
-            29438,                                          -- 50    Precision 3/3
-            11190, 11190, 11190,                            -- 51-53 Improved Cone of Cold 3/3
-            11180, 11180, 11180, 11180, 11180,              -- 54-58 Winter's Chill 5/5
-            11165, 11165,                                   -- 59-60 Improved Frost Nova 2/2
+            11070, 11070, 11070,                            -- 12-14 Improved Frostbolt 3/5
+            11071, 11071, 11071,                            -- 15-17 Frostbite 3/3
+            11070, 11070,                                   -- 18-19 Improved Frostbolt 5/5
+            1312002,                                        -- 20    Ice Lance
+            11207, 11207, 11207, 11207,                     -- 21-24 Ice Shards 4/5
+            11170, 11170, 11170,                            -- 25-27 Shatter 3/3
+            11207,                                          -- 28    Ice Shards 5/5
+            11958,                                          -- 29    Ice Block
+            400647, 400647,                                 -- 30-31 Fingers of Frost 2/2
+            11160, 11160, 11160,                            -- 32-34 Frost Channeling 3/3
+            11185,                                          -- 35    Improved Blizzard 1/3
+            29438,                                          -- 36    Precision 3/3
+            16757, 16757,                                   -- 37-38 Arctic Reach 2/2
+            12472,                                          -- 39    Cold Snap
+            11426,                                          -- 40    Ice Barrier
+            11175,                                          -- 41    Permafrost 1/3
+            11190, 11190, 11190,                            -- 42-44 Improved Cone of Cold 3/3
+            11180, 11180, 11180, 11180, 11180,              -- 45-49 Winter's Chill 5/5
+            11165,                                          -- 50    Improved Frost Nova 1/2
+            6057, 6057,                                     -- 51-52 Wand Specialization 2/2
+            28574, 28574, 28574,                            -- 53-55 Arcane Resilience 3/3
+            11210, 11210,                                   -- 56-57 Arcane Subtlety 2/2
+            11213, 11213, 11213,                            -- 58-60 Arcane Concentration 3/5
         },
     },
     PRIEST = {

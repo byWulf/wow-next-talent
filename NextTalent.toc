@@ -2,7 +2,7 @@
 ## Title: NextTalent
 ## Notes: Highlights the next talent of a leveling build in the talent window while you have points to spend.
 ## Notes-deDE: Markiert im Talentfenster das nächste Talent eines Leveling-Builds, solange du freie Punkte hast.
-## Version: 1.3.0
+## Version: 1.3.1
 ## IconTexture: Interface\Icons\Spell_Shadow_Shadowform
 ## Author: byWulf
 
